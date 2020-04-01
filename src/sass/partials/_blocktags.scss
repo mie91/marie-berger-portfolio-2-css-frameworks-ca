@@ -3,10 +3,18 @@ body {
     font-family: $mainFont;
 }
 
+#root {
+    height: 100%;
+}
+
+
+
 //Headers
 
 .mainHeader {
     @include remFont(48px);
+    padding: 5px;
+    margin-top: 10px;
 }
 
 //Anchor tags

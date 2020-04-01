@@ -1,0 +1,23 @@
+.packageCard {
+        display: inline-block;
+        padding: 10px;
+        padding-left: 0px;
+        width: 250px;
+}
+
+.packageCard p {
+    height: 150px;
+}
+
+.packageBtn {
+        background-color: $orange;
+        font-weight: $bold;
+        text-align: center;  
+        border: $orange;
+}
+
+.packageBtn:hover {
+    color: $orange;
+    background-color: $bright;
+    border: $orange;
+}
