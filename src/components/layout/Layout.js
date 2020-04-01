@@ -10,19 +10,20 @@ import Contact from "../contact/Contact";
 
 function Layout() {
     return (
+        <>
         <Router>
-            <Navbar bg="dark" variant="dark" expand="lg">
+            <Navbar expand="lg">
                 <NavLink to="/" exact>
-                    <Navbar.Brand>January Island Escapes</Navbar.Brand>
+                    <Navbar.Brand><h2>January Island Escapes</h2></Navbar.Brand>
                 </NavLink>
-                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                <Navbar.Toggle aria-controls="basic-navbar-nav"/>
                 <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="mr-auto">
+                    <Nav className="navbar-nav ml-auto">
                         <NavLink to="/" exact className="nav-link">
-                            Home
+                            Home |
                         </NavLink>
                         <NavLink to="/packages" className="nav-link">
-                            Packages
+                            Packages |
                         </NavLink>
                         <NavLink to="/contact" className="nav-link">
                             Contact Us
@@ -38,6 +39,14 @@ function Layout() {
                 </Switch>
             </Container>
         </Router>
+
+            <footer>
+                <div className="footercontent">
+                     <p>Copyright © 2018</p>
+                 </div>
+            </footer>
+
+      </>
     );
 }
 

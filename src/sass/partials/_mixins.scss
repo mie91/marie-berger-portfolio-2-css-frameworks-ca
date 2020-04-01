@@ -1,0 +1,5 @@
+// Fontsize mixer (Pixels to rem) //
+
+@mixin remFont ($size) {
+    font-size: ($size/16px)*1rem;
+}

@@ -1,0 +1,14 @@
+//General styles
+body {
+    font-family: $mainFont;
+}
+
+//Headers
+
+h1 {
+    @include remFont(48px);
+}
+
+//Anchor tags
+
+
