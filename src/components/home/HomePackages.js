@@ -1,5 +1,6 @@
 import React from 'react';
 import {Button } from "react-bootstrap";
+import PropTypes from "prop-types";
 
 function HomePackages ({packTitle, packDesc}) {
     return (
@@ -10,4 +11,10 @@ function HomePackages ({packTitle, packDesc}) {
         </div>
     );
 }
+
+HomePackages.propTypes = {
+    packTitle: PropTypes.string.isRequired,
+    packDesc: PropTypes.string.isRequired
+};
+
 export default HomePackages;

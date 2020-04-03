@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Col, Row } from "react-bootstrap";
+import {Col, Row } from "react-bootstrap";
 import Heading from "../layout/Heading";
 import Description from "../layout/Description";
 import Slider from "../slider/Slider";
@@ -9,7 +9,7 @@ function Home () {
     return (
     <>
     <Slider></Slider>
-    <Container>
+   
         <Heading title="Welcome to January Island Escapes"/>
         <Description descriptionText="Ea elit dolor ullamco incididunt adipisicing magna exercitation aute. Irure do incididunt minim enim culpa in sit id anim ipsum velit nulla dolore. Cillum sit adipisicing cillum anim reprehenderit et ullamco Lorem et do. Dolor velit occaecat sunt aute irure qui aliquip esse voluptate anim."/>
 
@@ -34,7 +34,7 @@ function Home () {
         </Row>
     </Col>
     
-    </Container>
+
     </>
     )
 }
