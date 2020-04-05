@@ -1,11 +1,62 @@
+//General styles for package cards (HOME & PACKAGES)//
+
+.packageCard p {
+    height: 150px;
+}
+
+
+.packageBtn {
+    background-color: $orange;
+    font-weight: $bold;
+    text-align: center;
+    border: $orange 2px solid;
+    cursor: pointer;
+
+}
+
+.packageBtn:hover {
+    color: $bright;
+    background-color: $orange;
+    border: $orange 2px solid;
+    box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, 0.5);
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+
+//Styles for package cards on PACKAGE page//
+
 .packagePageCard {
     display: inline-block;
     margin: 10px;
     padding: 20px;
     width: 350px;
-    border: $orange 2px solid;  
+    border: $orange 2px solid;
+    border-radius: 10px;
+    box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, 0.5);
+
+    h3 {
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 0.3em;
+    }
+
+    button {
+        width: 50%;
+        margin-left: 25%;
+    }
+    
 }
+
+div.packagePageCard:hover {
+    background-color: $bright;
+    transition: box-shadow 0.4s ease-in-out;
+    box-shadow: none;
+}
+
 
 .packagePageCard p {
     height: 160px;
+    margin-left: auto;
 }
+
+
