@@ -1,12 +1,32 @@
 .formBox {
     margin-bottom: 20vh;
     margin-left: 20%;
+
+
+    button {
+        margin-top: 30px;
+    }
 }
 
-form input{
-    margin-right: 5px;
+
+
+
+.errorMessage {
+    display: block;
+    color: $orange;
+    text-align: right;
+    border-bottom: solid orange 1px;
+  
+    border-radius: 2px;
+
 }
 
-.formNames {
-    display: flex;
+.formValidated {
+    color: $purple;
+    font-size: 1.2em;
+    text-align: center;
+    margin-top: 10px;
+    border-bottom: solid 2px $lightpurple;
+    
+
 }
