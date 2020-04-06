@@ -1,5 +1,5 @@
 import React from 'react';
-import { Navbar, Nav, Container } from "react-bootstrap";
+import { Navbar, Nav } from "react-bootstrap";
 import { BrowserRouter as Router, Switch, Route, NavLink } from "react-router-dom";
 
 import Home from "../home/Home";
@@ -31,13 +31,11 @@ function Layout() {
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
-            <Container>
                 <Switch>
                     <Route path="/" exact component={Home} />
                     <Route path="/packages" component={Packages} />
                     <Route path="/contact" component={Contact} />
                 </Switch>
-            </Container>
         </Router>
 
             <footer>
@@ -45,7 +43,6 @@ function Layout() {
                      <p>Copyright © 2018</p>
                  </div>
             </footer>
-
       </>
     );
 }
