@@ -9,7 +9,8 @@ import banner3 from "../slider/images/banner3.jpg";
 function Slider() {
 
     return (
-        <Carousel className="theSlider">
+        <Carousel
+        className = "theSlider carousel slide">
                 <Carousel.Item>
                 <Image className="d-block w-100"
                             src={banner1} alt="Beach and boat in the sunset"/>

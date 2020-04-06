@@ -6,8 +6,10 @@ import Heading from "../layout/Heading";
 import Description from "../layout/Description";
 import ErrorMessage from "../contact/ErrorMessage";
 
-import { faHome } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
+
+
+
 
 
 const telephoneRegExp = /^((\\+[1-9]{1,4}[ \\-]*)|(\\([0-9]{2,3}\\)[ \\-]*)|([0-9]{2,4})[ \\-]*)*?[0-9]{3,4}?[ \\-]*[0-9]{3,4}?$/
@@ -45,9 +47,7 @@ function Contact() {
 
     return (
         <Col className="col-sm-10">
-            <div>
-    <FontAwesomeIcon icon={faHome} />
-  </div>
+
             <div className="formBox">
             <Heading title="Contact Us"/>
             <Description descriptionText="Et proident esse qui do officia est. Do amet aliquip nulla Lorem culpa laborum. Laboris proident mollit proident eiusmod amet irure nisi sunt. Irure irure in proident incididunt. Minim laboris cupidatat est amet irure. Ex elit id consequat eiusmod ullamco laborum eiusmod deserunt occaecat. Cupidatat laborum aute exercitation pariatur aliqua."/>
@@ -78,7 +78,7 @@ function Contact() {
                         {errors.email && <ErrorMessage>{errors.email.message}</ErrorMessage>}
                         {validated && <div className="formValidated">Your request was validated!</div>}
                     </Form.Group>
-                    <Button className="packageBtn" type="submit">Submit</Button>
+                    <Button className="mainButton" type="submit">Submit</Button>
                     
                 </Form>
             </div>

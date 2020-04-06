@@ -7,7 +7,7 @@ function HomePackages ({packTitle, packDesc}) {
         <div className="packageCard">
             <h3>{packTitle}</h3>
             <p>{packDesc}</p>
-            <Button className="packageBtn">Find Out More</Button>
+            <Button className="mainButton">Find Out More</Button>
         </div>
     );
 }

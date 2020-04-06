@@ -1,6 +1,6 @@
 import React from 'react';
 import PackageData from "../assets/json/packageData";
-import { Button, Image } from "react-bootstrap";
+import { Button } from "react-bootstrap";
 
 
 function PackageList () {
@@ -14,7 +14,7 @@ function PackageList () {
                    }
                     <h3>{packageDetail.title}</h3>
                     <p>{packageDetail.description}</p>
-                    <Button className="packageBtn">Find Out More</Button>
+                    <Button className="mainButton">Find Out More</Button>
                 </div>
 
                 );

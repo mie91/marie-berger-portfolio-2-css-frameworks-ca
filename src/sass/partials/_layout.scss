@@ -2,26 +2,42 @@
 
 .navbar {
     background-color: $purple;
-    border: none;
+
 
 }
 
-.navbar-brand h2 {
-    @include remFont(28px);
-    text-align: center;
-    line-height: 30px;
-    color: $white;
+.navbar-brand {
+    margin: 0px;
+
+    
+    h2 {
+        @include remFont(28px);
+        text-align: center;
+        line-height: 30px;
+        color: $white;
+        margin: none;
+
+    }
+
+    
+    
     
 }
 
 .navbar-light .navbar-nav .nav-link {
     color: $white;
+    background-color: none;
+    padding: 6px;
+    border-radius: 10px;
+    transition: background-color 1s;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
     color: $bright;
     background-color: $lightpurple;
+    padding: 6px;
     border-radius: 10px;
+    transition-timing-function: ease-in-out;
 }
 
 .navbar-light .navbar-nav .nav-link.active {

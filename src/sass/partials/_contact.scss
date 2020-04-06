@@ -8,15 +8,11 @@
     }
 }
 
-
-
-
 .errorMessage {
     display: block;
     color: $orange;
     text-align: right;
-    border-bottom: solid orange 1px;
-  
+    border-bottom: solid $orange 1px;
     border-radius: 2px;
 
 }
