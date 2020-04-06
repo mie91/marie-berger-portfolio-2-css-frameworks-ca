@@ -10,12 +10,7 @@ body {
     margin: 0;
 }
 
-
-
-
-
 //Headers
-
 .mainHeader {
     @include remFont(48px);
     padding: 5px;
@@ -24,24 +19,20 @@ body {
 
 //Anchor tags
 
-
-
-//Main Button used
-
+//General buttons
 
 .mainButton {
     background-color: $orange;
     font-weight: $bold;
     text-align: center;
-    border: $orange 2px solid;
+    border: $baseBorder;
     cursor: pointer;
-
 }
 
 .mainButton:hover {
     color: $bright;
     background-color: $orange;
-    border: $orange 2px solid;
+    border: $baseBorder;
     box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, 0.5);
     transition: box-shadow 0.2s ease-in-out;
 }
@@ -51,7 +42,6 @@ body {
 .show>.btn-primary.dropdown-toggle {
     color: $bright;
     background-color: $orange;
-    border: $orange 2px solid;
+    border: $baseBorder;
     outline: none;
 }
-

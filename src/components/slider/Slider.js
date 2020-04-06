@@ -18,11 +18,10 @@ function Slider() {
                     <Image className="d-block w-100" src={banner2} alt="Beach"/>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <Image className="d-block w-100" src={banner3}/>
+                    <Image className="d-block w-100" src={banner3} alt="Beach in daytime"/>
                 </Carousel.Item>
             </Carousel>
-        </Container>
-        
+        </Container>      
     )
 }
 

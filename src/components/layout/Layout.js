@@ -1,12 +1,9 @@
 import React from 'react';
 import { Navbar, Nav } from "react-bootstrap";
 import { BrowserRouter as Router, Switch, Route, NavLink } from "react-router-dom";
-
 import Home from "../home/Home";
 import Packages from "../packages/Packages";
 import Contact from "../contact/Contact";
-
-
 
 function Layout() {
     return (

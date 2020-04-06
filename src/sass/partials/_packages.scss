@@ -4,9 +4,6 @@
     height: 150px;
 }
 
-
-
-
 //Styles for package cards on PACKAGE page//
 
 .packagePageCard {
@@ -14,7 +11,7 @@
     margin: 10px;
     padding: 20px;
     width: 350px;
-    border: $orange 2px solid;
+    border: $baseBorder;
     border-radius: 10px;
     box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, 0.5);
 
@@ -28,7 +25,11 @@
         width: 50%;
         margin-left: 25%;
     }
-    
+
+    p {
+        height: 160px;
+        margin-left: auto;
+    }
 }
 
 div.packagePageCard:hover {
@@ -37,10 +38,13 @@ div.packagePageCard:hover {
     box-shadow: none;
 }
 
+//MEDIA QUERIES//
 
-.packagePageCard p {
-    height: 160px;
-    margin-left: auto;
+@media only screen and (max-width: 400px) {
+    .packagePageCard {
+        width: 280px;
+        p {
+            height: auto;
+        }
+    }
 }
-
-

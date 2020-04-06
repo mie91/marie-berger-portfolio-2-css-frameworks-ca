@@ -2,7 +2,6 @@
     margin-bottom: 20vh;
     margin-left: 20%;
 
-
     button {
         margin-top: 30px;
     }
@@ -12,7 +11,7 @@
     display: block;
     color: $orange;
     text-align: right;
-    border-bottom: solid $orange 1px;
+    border-bottom: $baseBorder;
     border-radius: 2px;
 
 }
@@ -22,7 +21,6 @@
     font-size: 1.2em;
     text-align: center;
     margin-top: 10px;
-    border-bottom: solid 2px $lightpurple;
-    
-
+    border-bottom: $baseBorder;
+    border-color: $lightpurple;
 }

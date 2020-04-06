@@ -17,8 +17,6 @@ function Packages() {
         </Col>
     </Container>
     );
-
-
 }
 
 export default Packages;
